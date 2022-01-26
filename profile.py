@@ -13,7 +13,7 @@ node.addService(rspec.Execute(shell="/bin/sh",
 node.addService(rspec.Execute(shell="/bin/sh",
                               command="sudo apt install -y apache2"))
 node.addService(rspec.Execute(shell="/bin/sh",
-                              commando='sudo ufw allow in "Apache Full"'))
+                              command='sudo ufw allow in "Apache Full"'))
 node.addService(rspec.Execute(shell="/bin/sh",
                               command='sudo systemct1 status apache2'))
 # Print the RSpec to the enclosing page.
